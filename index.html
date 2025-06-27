@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Fabricio Bezerra" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>voXStore - Fone Bluetooth</title>
+  </head>
+  <body>
+    <header>
+      <div class="top-bar">
+        <div class="logo">
+          <a href="index.html"
+            ><img src="img/logo.png" alt="voXStore Logo"
+          /></a>
+        </div>
+        <nav class="nav">
+          <a href="#">Headsets</a>
+          <a href="#">Mousepads</a>
+          <a href="#">Mouses</a>
+          <a href="#">Teclados</a>
+        </nav>
+        <div class="user-options">
+          <a href="#"> <i class="fas fa-user-alt"></i>login / cadastro </a>
+          <input type="text" placeholder="Buscar produtos" />
+          <i class="fas fa-search"></i>
+        </div>
+      </div>
+    </header>
+    <main class="main-container">
+      <div class="product-details">
+        <!-- Imagens do produto -->
+        <div class="product-images">
+          <img src="img/fone_destaque.png" alt="Fone de Ouvido Bluetooth" />
+          <div class="gallery-thumbnail">
+            <img src="img/fone1.png" alt="Fone de Ouvido Preto" />
+            <img src="img/fone2.png" alt="Fone de Ouvido Bege" />
+            <img src="img/fone3.png" alt="Fone de Ouvido Cinza" />
+          </div>
+        </div>
+        <!-- Informações do produto -->
+        <div class="product-info">
+          <p class="product-path">
+            <i class="fas fa-chevron-right"></i> Periféricos / Fones / Wireless
+          </p>
+          <h2>Fone de Ouvido Bluetooth - Preto</h2>
+          <p class="product-code">Código do Produto: QCYH3-01</p>
+          <p class="price">$ 399<span class="styleprice">,00</span></p>
+          <p class="rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-stroke"></i>
+            45 Avaliações
+          </p>
+          <p class="product-description">
+            Aproveite uma experiência sonora única com nossos fones de ouvido
+            Bluetooth. Design moderno, leve e ideal para qualquer ocasião. Sons
+            nítidos e graves potentes que elevam sua música a um novo patamar.
+          </p>
+          <div class="product-options">
+            <label for="color">Cor:</label>
+            <select name="color" id="color">
+              <option value="cream">Bege</option>
+              <option value="grey">Cinza</option>
+              <option value="black">Preto</option>
+            </select>
+            <label for="quantity">Quantidade:</label>
+            <input type="number" id="quantity" name="quantity" value="1" />
+          </div>
+          <div class="buttons">
+            <button class="add-to-cart">
+              <i class="fas fa-shopping-cart"></i>
+              Adicionar ao carrinho
+            </button>
+            <button class="add-to-wishlist">
+              <i class="fas fa-heart"></i>
+              Adicionar à lista de desejos
+            </button>
+          </div>
+          <p class="delivery">
+            <i class="fas fa-truck"></i>
+            Estimativa de entrega: Consulte nossos termos e condições.
+          </p>
+        </div>
+      </div>
+      <div class="product-specs">
+        <ul class="tabs">
+          <li><i class="fas fa-info-circle"></i>Detalhes</li>
+          <li><i class="fas fa-undo"></i>Devolução</li>
+          <li><i class="fas fa-shipping-fast"></i>Entrega</li>
+        </ul>
+        <div class="specs-content">
+          <div>
+            <p><strong>SKU: </strong> QCY73A23</p>
+            <p><strong>Material externo: </strong> Plástico ABS</p>
+            <p><strong>Tempo de Bateria: </strong> 40 horas de uso continuo</p>
+            <p><strong>Conectividade: </strong> Bluetooth 5.4</p>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
